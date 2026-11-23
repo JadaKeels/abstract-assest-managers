@@ -2,6 +2,7 @@ package com.pluralsight.assets;
 
 public class Jewelry extends Asset {
     private double value;
+
     public Jewelry(String description,
                    String dateAcquired,
                    double originalCost,
@@ -13,10 +14,13 @@ public class Jewelry extends Asset {
     public double getJewelryValue() {
         return value;
     }
+
     public void setJewelryValue(double value) {
         this.value = value;
     }
+
     @Override
     public double getValue() {
         return value;
     }
+}

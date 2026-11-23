@@ -1,9 +1,9 @@
-package com.pluralsight;
-
+package com.pluralsight.assets;
 
 public class House extends Asset {
     private String address;
     private double currentValue;
+
     public House(String description,
                  String dateAcquired,
                  double originalCost,
@@ -17,11 +17,9 @@ public class House extends Asset {
     public String getAddress() {
         return address;
     }
+
     public double getCurrentValue() {
         return currentValue;
-    }
-    public void setCurrentValue(double currentValue) {
-        this.currentValue = currentValue;
     }
 
     @Override
